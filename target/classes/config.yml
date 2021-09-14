@@ -1,0 +1,89 @@
+Sounds:
+  PlayerJoin: 'BLOCK_AMETHYST_BLOCK_BREAK'
+  PlayerLeave: 'ENTITY_ITEM_BREAK'
+  StartCountdown: 'BLOCK_METAL_STEP'
+  GameStart: 'AMBIENT_SOUL_SAND_VALLEY_MOOD'
+  GameFinish: 'BLOCK_ANVIL_LAND'
+  PlayerKill: 'ENTITY_PLAYER_HURT'
+  PlayerKilled: 'ENTITY_BLAZE_HURT'
+  PlayerReported: 'BLOCK_BEACON_ACTIVATE'
+  PlayerVote: 'BLOCK_GLASS_BREAK'
+  VotePhase: 'BLOCK_GLASS_BREAK'
+  PlayPhase: 'BLOCK_GLASS_BREAK'
+  TaskOpened: 'BLOCK_GLASS_BREAK'
+  TaskCompleted: 'BLOCK_GLASS_BREAK'
+  EnterCameras: 'BLOCK_GLASS_BREAK'
+  NextCameraGroup: 'BLOCK_GLASS_BREAK'
+  NextCamera: 'BLOCK_GLASS_BREAK'
+  PreviousCamera: 'BLOCK_GLASS_BREAK'
+  PreviousCameraGroup: 'BLOCK_GLASS_BREAK'
+  ExitCameras: 'BLOCK_GLASS_BREAK'
+  EnterVents: 'BLOCK_GLASS_BREAK'
+  NextVent: 'BLOCK_GLASS_BREAK'
+  PreviousVent: 'BLOCK_GLASS_BREAK'
+  ExitVents: 'BLOCK_GLASS_BREAK'
+
+GameEffects:
+  - 'BLINDNESS:1'
+  - 'SPEED:2'
+
+Bossbars:
+  Tasks:
+    Title: '&aTasks completed'
+  Discussion:
+    Title: '&fDiscussion time'
+  Voting:
+    Title: '&fVoting time'
+
+Scoreboards:
+  Waiting:
+    Title: '&f&lAmongUs'
+    Lines:
+      - '&3'
+      - '&7%player_name%'
+      - '&4'
+      - '&fStatus: %status%'
+      - '&fPlayers: &a%players%&7/&a%max_players%'
+      - '&5'
+      - '&eplay.yourserver.net'
+  Game:
+    Title: '&f&lAmongUs'
+    Lines:
+      - '&3'
+      - '&7%player_name%'
+      - '&4'
+      - '&fYou are &a%type%'
+      - '<crewmate>&7</crewmate>' # <crewmate> tag for just showing that to crewmates
+      - '<crewmate>%tasks_scroll_3%</crewmate>'
+      - '&1'
+      - '&fPlayers: &a%players%&7/&a%max_players%'
+      - '&5'
+      - '&eplay.yourserver.net'
+  Finishing:
+    Title: '&f&lAmongUs'
+    Lines:
+      - '&3'
+      - '&7%player_name%'
+      - '&4'
+      - '&fStatus: %status%'
+      - '&fPlayers: &a%players%&7/&a%max_players%'
+      - '&5'
+      - '&eplay.yourserver.net'
+
+Tasks:
+  UPLOAD_DATA:
+    Description: '&aUpload data &8(&7%number%&8)'
+  DOWNLOAD_DATA:
+    Description: '&eDownload data &8(&7%number%&8)'
+
+Inventories:
+  Voting:
+    Name: '&8Voting...'
+  Tasks:
+    UPLOAD_DATA:
+      Name: '&8Upload data...'
+    DOWNLOAD_DATA:
+      Name: '&8Download data...'
+  Sabotage:
+    Name: '&8Sabotage...'
+    FillWithPanes: true

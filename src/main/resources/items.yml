@@ -1,0 +1,159 @@
+Impostor:
+  Knife:
+    Name: '&6&lKNIFE'
+    Lore:
+      - ''
+    Material: 'IRON_SWORD'
+    Slot: 1
+  FakeTask:
+    Slot: 2
+  Vent:
+    Name: '&6&lVENT'
+    Lore:
+      - ''
+    Material: 'COMPASS'
+    Slot: 3
+  Sabotage:
+    Name: '&6&lSABOTAGE'
+    Lore:
+      - ''
+    Material: 'CLOCK'
+    Slot: 4
+  Cameras:
+    Name: '&6&lCAMERAS'
+    Lore:
+      - ''
+    Material: 'LEVER'
+    Slot: 7
+  Map:
+    Name: '&6&lMAP'
+    Lore:
+      - ''
+    Slot: 8
+  Vents:
+    VentsNext:
+      Name: '&6&lNEXT &7vent'
+      Lore:
+        - ''
+      Slot: 5
+    VentsExit:
+      Name: '&c&lEXIT &7vent'
+      Lore:
+        - ''
+      Material: 'BARRIER'
+      Slot: 4
+    VentsPrevious:
+      Name: '&6&lPREVIOUS &7vent'
+      Lore:
+        - ''
+      Slot: 3
+
+Crewmate:
+  Tasks:
+    Slot: 0
+    UPLOAD_DATA:
+      Name: '&6&lUPLOAD DATA <crewmate>&8(&7%number%&8)</crewmate>' # <crewmate> tag for just showing that to crewmates (JUST WORKS FOR TASK ITEM)
+      Lore:
+        - '<crewmate>&8Locations:</crewmate>' # <crewmate> tag for just showing that to crewmates (JUST WORKS FOR TASK ITEM)
+        - '<crewmate>&7%locations_7%</crewmate>' # %locations_COLOR CODE WITHOUT &% (JUST WORKS FOR TASK ITEM)
+      Material: 'SNOWBALL'
+    DOWNLOAD_DATA:
+      Name: '&6&lDOWNLOAD DATA <crewmate>&8(&7%number%&8)</crewmate>'
+      Lore:
+        - '<crewmate>&8Locations:</crewmate>'
+        - '<crewmate>&7%locations_7%</crewmate>'
+      Material: 'EGG'
+  Cameras:
+    Name: '&6&lCAMERAS'
+    Lore:
+      - ''
+    Material: 'LEVER'
+    Slot: 7
+  Map:
+    Name: '&6&lMAP'
+    Lore:
+      - ''
+    Slot: 8
+
+Cameras:
+  CamerasNextGroup:
+    Name: '&6&lNEXT &7group'
+    Lore:
+      - ''
+    Slot: 6
+  CamerasNext:
+    Name: '&6&lNEXT &7camera'
+    Lore:
+      - ''
+    Slot: 5
+  CamerasExit:
+    Name: '&c&lEXIT &7cameras'
+    Lore:
+      - ''
+    Material: 'BARRIER'
+    Slot: 4
+  CamerasPrevious:
+    Name: '&6&lPREVIOUS &7camera'
+    Lore:
+      - ''
+    Slot: 3
+  CamerasPreviousGroup:
+    Name: '&6&lPREVIOUS &7group'
+    Lore:
+      - ''
+    Slot: 2
+
+Voting:
+  Vote:
+    Name: '&6&lVOTE'
+    Lore:
+      - ''
+    Material: 'PAPER'
+    Slot: 0
+  VotePlayer:
+    Lore:
+      - ''
+
+Tasks:
+  UPLOAD_DATA:
+    Upload:
+      Name: '&a&lUPLOAD &7%player_name%'
+      Lore:
+        - ''
+      Material: 'PAPER'
+    Progress:
+      Name: '&a&lPROGRESS &7%progress%'
+      Lore:
+        - ''
+      Material: 'LIME_STAINED_GLASS_PANE'
+  DOWNLOAD_DATA:
+    Upload:
+      Name: '&a&lDOWNLOAD &7%player_name%'
+      Lore:
+        - ''
+      Material: 'PAPER'
+    Progress:
+      Name: '&a&lPROGRESS &7%progress%'
+      Lore:
+        - ''
+      Material: 'RED_STAINED_GLASS_PANE'
+
+Sabotage:
+  Sabotage:
+    Reactor:
+      Name: '&6&lREACTOR'
+      Lore:
+        - ''
+      Material: 'CLOCK'
+    O2:
+      Name: '&6&lO2'
+      Lore:
+        - ''
+      Material: 'WATER_BUCKET'
+    Doors:
+      Name: '&6&lDOORS'
+      Lore:
+        - ''
+      Material: 'IRON_DOOR'
+    Pane:
+      Material: 'GRAY_STAINED_GLASS_PANE'

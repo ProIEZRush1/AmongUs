@@ -1,0 +1,21 @@
+main: me.proiezrush.amongus.AmongUs
+name: AmongUs
+version: "A_2_0"
+api-version: 1.13
+authors:
+  - ProIEZRush
+softdepend:
+  - PlaceholderAPI
+commands:
+  amongus:
+    aliases: [as]
+    description: Reload all plugins config files
+  arena:
+    aliases: []
+    description: All related arena commands
+  join:
+    aliases: []
+    description: Join to an arena
+  leave:
+    aliases: []
+    description: Leave your current arena

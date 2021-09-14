@@ -1,0 +1,160 @@
+#   COMMAND RELATED
+PluginReloaded: '&aPlugin reloaded. All config files loaded'
+
+NoPermission: '&cYou don''t have permission'
+NotPlayer: '&cYou are not a player'
+
+ArenaCommandHelp:
+  - '&f/arena'
+  - '  &dcreate &f<arena> &8- &7Create an arena'
+  - '  &ddelete &f<arena> &8- &7Delete an arena'
+  - '  &dwaiting &f<arena> &8- &7Set waiting location'
+  - '  &dspawn &f<arena> &8- &7Set spawn location'
+  - '  &ddiscussion &f<arena> &8- &7Set discussion location'
+  - '  &dvoting &f<arena> &8- &7Set voting location'
+  - '  &demergency &f<arena> &8- &7Set emergency button location &f(button)'
+  - '&8=========='
+  - '  &dloc &f<arena> <loc_name> &8- &7Add location'
+  - '  &drmloc &f<arena> <loc_name> &8- &7Remove location'
+  - '&8=========='
+  - '  &dtaskgroup &f<arena> <group_name> &8- &7Add task group'
+  - '  &drmtaskgroup &f<arena> <group_name> &8- &7Remove task group'
+  - '  &dtask &f<arena> <task_group> <task_type> <loc> &8- &7Add task in the block you are looking'
+  - '  &drmtask &f<arena> &8- &7Remove task in the block you are looking'
+  - '&8=========='
+  - '  &dventgroup &f<arena> <group_name> <random> &8- &7Add vent group'
+  - '  &drmventgroup &f<arena> <group_name> &8- &7Remove vent group'
+  - '  &dvent &f<arena> <vent_group> <loc> &8- &7Add vent in the block you are looking &f(iron trapdoor)'
+  - '  &drmvent &f<arena> &8- &7Remove vent in the block you are looking &f(iron trapdoor)'
+  - '&8=========='
+  - '  &dcameragroup &f<arena> <group_name> <random> &8- &7Add camera group'
+  - '  &drmcameragroup &f<arena> <group_name> &8- &7Remove camera group'
+  - '  &dcamera &f<arena> <camera_group> <loc> &8- &7Add camera in your location'
+  - '  &drmcamera &f<arena> &8- &7Remove camera in the block you are looking'
+  - '&8=========='
+  - '  &dsabotage &f<arena> <sabotage_type> <loc> &8- &7Add sabotage in the block you are looking'
+  - '  &drmsabotage &f<arena> &8- &7Remove sabotage in the block you are looking'
+  - '&8=========='
+  - '  &dwand &8- &7Get the selector wand'
+  - '  &ddoorgroup &f<arena> <group_name> &8- &7Add door group'
+  - '  &drmdoorgroup &f<arena> <group_name> &8- &7Remove door group'
+  - '  &ddoor &f<arena> <door_group> <loc> &8- &7Add door in your location'
+  - '  &drmdoor &f<arena> &8- &7Remove door in the block you are looking'
+  - '&8=========='
+  - '  &dsave &f<arena> &8- &7Save an arena'
+
+JoinCommandHelp:
+  - '&f/join &d<arena> &8- &7Join an arena'
+
+#   ERRORS
+ArenaAlreadyExists: '&cThe arena already exists'
+NeedToLeaveGame: '&cYou need to leave your game'
+NotInArena: '&cYou are not in arena'
+ArenaInGame: '&cThe arena is in game'
+
+ArenaNotExists: '&cThe arena does not exists'
+LocExists: '&cThe loc exists'
+LocNotExists: '&cThe loc does not exists'
+TaskGroupExists: '&cThe task group already exists'
+TaskGroupNotExists: '&cThe task group does not exists'
+VentGroupExists: '&cThe vent group already exists'
+VentGroupNotExists: '&cThe vent group does not exists'
+CameraGroupExists: '&cThe camera group already exists'
+CameraGroupNotExists: '&cThe camera group does not exists'
+DoorGroupExists: '&cThe door group already exists'
+DoorGroupNotExists: '&cThe door group does not exists'
+
+InvalidBoolean: '&cYou need to enter a valid boolean value (0,1,true,false,yes,no)'
+InvalidTask: '&cInvalid task type'
+InvalidSabotage: '&cInvalid sabotage type'
+
+NeedsToBeButton: '&cThe block needs to be a button'
+NeedsToBeBlock: '&cThe block needs to be valid'
+NeedsToBeTrapdoor: '&cThe block needs to be a trapdoor'
+NeedsToBeAir: '&cThe block needs to be air'
+
+TheresAlreadyTask: '&cTheres already a task in that block'
+TheresAlreadyVent: '&cTheres already a vent in that block'
+TheresAlreadyCamera: '&cTheres already a camera in that block'
+TheresAlreadyDoor: '&cTheres already a door in that block'
+TheresAlreadySabotage: '&cTheres already a sabotage in that block'
+
+NoTask: '&cTheres no task in that block'
+NoVent: '&cTheres no vent in that block'
+NoCamera: '&cTheres no camera in that block'
+NoSabotage: '&cTheres no sabotage in that block'
+NoDoor: '&cTheres no door in that block'
+
+WandPositionsNotSet: '&cThe wand positions are not set'
+
+ConfigurationMissing: '&cTheres a missing configuration'
+
+# general setup
+ArenaCreated: '&aThe arena has been created'
+ArenaDeleted: '&cThe arena has been deleted'
+WaitingSet: '&aThe arena waiting location has been set'
+SpawnSet: '&aThe spawn location has been set'
+DiscussionSet: '&aThe discussion location has been set'
+VotingSet: '&aThe voting location has been set'
+EmergencySet: '&aThe emergency button has been set'
+
+# locs
+LocAdded: '&aLoc added'
+LocRemoved: '&aLoc removed'
+
+# tasks
+TaskGroupAdded: '&aTask group added'
+TaskGroupRemoved: '&cTask group removed'
+TaskAdded: '&aTask added'
+TaskRemoved: '&cTask removed'
+
+# vents
+VentGroupAdded: '&aVent group added'
+VentGroupRemoved: '&aVent group removed'
+VentAdded: '&aVent added'
+VentRemoved: '&cVent removed'
+
+# cameras
+CameraGroupAdded: '&aCamera group added'
+CameraGroupRemoved: '&aCamera group removed'
+CameraAdded: '&aCamera added'
+CameraRemoved: '&cCamera removed'
+
+# sabotages
+SabotageAdded: '&aSabotage added'
+SabotageRemoved: '&cSabotage removed'
+
+# door
+DoorGroupAdded: '&aDoor group added'
+DoorGroupRemoved: '&aDoor group removed'
+DoorAdded: '&aDoor added'
+DoorRemoved: '&cDoor removed'
+
+# wand
+WandReceived: '&aWe have added the wand to your inventory'
+Pos1Set: '&aThe pos1 has been set'
+Pos2Set: '&aThe pos2 has been set'
+
+# save
+ArenaSaved: '&aThe arena has been saved'
+
+#   GAME RELATED
+PlayerJoined: '&d%player% &fjoined the game!'
+PlayerLeft: '&d%player% &fleft the game!'
+GameStarting: '&fThe game will start in &d%time% &fseconds!'
+GameStart: '&fThe game has started!'
+GameStartTitle: '&f&lAmongUs'
+GameStartSubtitle: '&fYou are a &d%type%'
+GameFinish: '&fThe gane gas finished. Winner &b%winner%'
+GameFinishTitle: '&f&lAmongUs'
+GameFinishSubtitle: '&d%winner% &fhas won the game!'
+ReportTitle: '&f&lAmongUs'
+ReportSubtitle: '&d%reporter% &fhas reported someone'
+VotingTitle: '&f&lAmongUs'
+VotingSubtitle: '&dTime to vote!'
+PlayTitle: '&f&lAmongUs'
+PlaySubtitle: '&d%voted% &fhas been ejected! <voted>&fHe was a &d%type%</voted>'
+
+# voting
+Vote: '&fYou have voted for &d%voted% &8(&7%votes%&8)'
+VoteGlobal: '&d%voter% &fhas voted for &d%voted% &8(&7%votes%&8)'
